@@ -24,8 +24,15 @@ if __name__ == "__main__":
     str_time = input("Zadej cas v S:")
     time = int(str_time)
 
-    hours = time // 3600
-    minutes = (time % 3600) // 60
-    seconds = time % 60
+    hour = time // 3600
+    minut = (time % 3600) // 60
+    second = (time % 3600) % 60
 
-    print(f"{hours:02d}:{minutes:02d}:{seconds:02d}")
+    print(f"{hour}:{minut}:{second}")
+
+if __name__ == "__main__":
+    #Vytvorte automat, který vam rozmeni castku X na:
+    # 5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1      
+    value = int(input("Zadej castku: "))
+
+    print(f"0x5000, 1x")
