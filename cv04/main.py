@@ -64,8 +64,8 @@ def combination_number(n, k):
 
 
 
-def pascal_trialngle(number):
-pass
+
+
 
 
 if __name__ == "__main__":
